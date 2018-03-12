@@ -1,0 +1,91 @@
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    /*height: 60px;*/
+}
+
+.footer--fixed {
+    position: fixed;
+}
+
+.footer .footer__thin p {
+    text-align: left;
+    padding-left: 10%;
+    max-width: 100%;
+    margin: 0;
+    font-family: Roboto;
+    color:  #dad9d9;
+    font-size: 12px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 21.6px;/* Приближение из-за подстановки шрифтов */
+}
+
+.footer__thick {
+    background-color: #373737;
+}
+
+.footer__column {
+    min-width: 17%;
+    margin-left: 27px;
+}
+
+.footer__thick-container {
+    padding-top: 75px;
+    padding-bottom: 64px;
+    display: flex;
+}
+
+.clearfix:before {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+h4 {
+    margin: 0;
+    font-family: Raleway, sans-serif;
+    color:  #ffffff;
+    font-size: 18px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    text-align: left;
+}
+
+.footer__thin {
+    background-color: #333333;
+    height: 34px;
+    padding-top: 16px;
+}
+
+.footer__column-list {
+    margin-top: 28px;
+    font-family: Roboto;
+    color:  #ffffff;
+    font-size: 12px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 18px;/* Приближение из-за подстановки шрифтов */
+    text-align: left;
+}
+
+.footer__column-list div {
+    padding-bottom: 2px;
+}
+
+.footer__nonlist {
+    font-family: Roboto;
+    color:  #f8f8f8;
+    font-size: 12px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 12px;/* Приближение из-за подстановки шрифтов */
+    text-align: left;
+}
+
+.footer__contacts {
+    font-family: Roboto;
+    color:  #ffffff;
+    font-size: 14px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 36px;/* Приближение из-за подстановки шрифтов */
+    text-align: left;
+}

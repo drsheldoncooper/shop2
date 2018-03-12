@@ -1,0 +1,50 @@
+form {
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #cccccc;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 8px;
+}
+
+textarea, input {
+    width: 250px;
+    resize: none;
+    color: #484343;
+    font-size: 16px;
+}
+
+#email:focus {
+    color: #464646;
+    background-color: #F4F4F4;
+    text-transform: none;
+}
+
+input, textarea {
+    text-transform: capitalize;
+}
+
+input[type="submit"] {
+    display: inline-block;
+    width: auto;
+    padding: 6px 15px;
+    color: #ffffff;
+    background: #2c3e50;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+input[type="reset"] {
+    display: inline-block;
+    width: auto;
+    padding: 6px 15px;
+    color: #ffffff;
+    background: #2c3e50;
+    border: none;
+    border-radius: 5px;
+}
