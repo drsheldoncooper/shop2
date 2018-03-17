@@ -1,34 +1,44 @@
 form {
     width: 300px;
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px #cccccc;
 }
 
 label {
     display: block;
-    margin-bottom: 5px;
-    margin-top: 8px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-family: Roboto;
+    color:  #333333;
+    font-size: 12px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    text-align: left;
 }
 
 textarea, input {
-    width: 250px;
     resize: none;
     color: #484343;
     font-size: 16px;
+    border: 1px solid #efefef;
+    width: 350px;
 }
 
-#email:focus {
-    color: #464646;
-    background-color: #F4F4F4;
-    text-transform: none;
+input {
+    height: 23px;
 }
+
 
 input, textarea {
-    text-transform: capitalize;
+    text-transform: lowercase;
+    font-family: Roboto;
+    color:  #aaaaaa;
+    font-size: 12px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    text-align: left;
+    padding: 2px 0 2px 10px;
 }
 
-input[type="submit"] {
+/*input[type="submit"] {
     display: inline-block;
     width: auto;
     padding: 6px 15px;
@@ -47,4 +57,4 @@ input[type="reset"] {
     background: #2c3e50;
     border: none;
     border-radius: 5px;
-}
+}*/

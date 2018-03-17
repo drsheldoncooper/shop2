@@ -10,3 +10,63 @@
       -webkit-filter: grayscale(100%);
       /* Chrome 19+ & Safari 6+ */
 }
+
+.form {
+    width: 50%;
+    float: left;
+}
+
+.address {
+    width: 50%;
+    float: right;
+}
+
+.name__address {
+    font-family: Roboto;
+    color:  #353535;
+    font-size: 18px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 900;
+    line-height: 14px;/* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.metka {
+    font-family: Roboto;
+    color:  #777777;
+    font-size: 12px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 14px;/* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    margin-bottom: 20px;
+    width: 162px;
+}
+
+.phone {
+    font-family: Roboto;
+    color:  #333333;
+    font-size: 20px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 20.8px;/* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.email {
+    font-family: Roboto;
+    color:  #333333;
+    font-size: 16px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 20.8px;/* Приближение из-за подстановки шрифтов */
+    text-decoration: underline;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.brands {
+    margin-top: 30px;
+    margin-bottom: 123px;
+    background: white url('../img/brands.png') no-repeat 50% 50%;
+    height: 160px;
+}

@@ -21,8 +21,9 @@ main {
 }
 
 .container {
-    width: 80%;
+    width: 87%;
     margin: 0% auto;
+    max-width: 1165px;
 }
 
 .container--flex {
@@ -62,4 +63,31 @@ main {
 }
 
 
+.block {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.facebook {
+    background: #3b5997 url('../img/f_icon.png') no-repeat 50% 50%;
+    width: 34%;
+    height: 150px;
+    display: inline-block;
+}
+
+.twitter {
+    background: #3fccfd url('../img/tw_icon.png') no-repeat 50% 50%;
+    width: 34%;
+    height: 150px;
+    display: inline-block;
+}
+
+.pinterest {
+    background: #cb2027 url('../img/pin_icon.png') no-repeat 50% 50%;
+    width: 34%;
+    height: 150px;
+    display: inline-block;
+}
 

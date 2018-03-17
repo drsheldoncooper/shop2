@@ -1,18 +1,47 @@
 .catalog__product {
-    width: 220px;
+    width: 270px;
     display: inline-block;
     margin-bottom: 25px;
+    height: 320px;
+    background-color: #ffffff;
 }
 
-.catalog__product img {
-    max-width: 180px;
-    max-height: 180px;
-}
+/*.catalog__product img {*/
+    /*max-width: 250px;*/
+    /*max-height: 235px;*/
+/*}*/
 
 .catalog__img-container {
-    width: 180px;
-    height: 180px;
-    padding: 10px;
+    width: 250px;
+    height: 235px;
+    margin: 10px 10px 20px 10px;
     background-color: white;
-    border: 1px solid rgb(238, 238, 238);
+    background-size: cover;
+}
+
+.products__name {
+    font-family: Roboto;
+    color:  #333333;
+    font-size: 14px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 900;
+    font-style: italic;
+    line-height: 18.012px;/* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    text-decoration: none;
+    float: left;
+    margin-left: 23px;
+    width: 164px;
+    text-transform: uppercase;
+
+}
+
+.products__price {
+    font-family: Roboto;
+    color:  #333333;
+    font-size: 18px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 900;
+    font-style: italic;
+    text-align: right;
+    float: right;
+    margin-right: 10px;
 }
